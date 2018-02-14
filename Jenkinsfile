@@ -7,7 +7,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello World!'
-                exit 1
             }
         }
     }
