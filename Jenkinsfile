@@ -1,6 +1,7 @@
 pipeline {
     agent any
     triggers {
+        // This should create a webhook because the polling is empty string:
         pollSCM('')
     }
     stages {
